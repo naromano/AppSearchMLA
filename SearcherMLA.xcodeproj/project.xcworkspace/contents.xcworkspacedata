@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Ejemplo.xcodeproj">
+      location = "self:/Users/usuario/Documents/Proyectos Xcode/Ejemplo/SearcherMLA.xcodeproj">
    </FileRef>
 </Workspace>
