@@ -5,7 +5,6 @@
 //  Created by usuario on 18/11/2019.
 //  Copyright © 2019 Nicolas. All rights reserved.
 
-
 import Foundation
 
 struct SearchResponse: Decodable{
@@ -20,7 +19,6 @@ struct SearchResponse: Decodable{
         let buying_mode: String
         let accepts_mercadopago: Bool
         let available_quantity: Int
-        
         
     }
 }

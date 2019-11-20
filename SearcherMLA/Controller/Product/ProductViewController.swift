@@ -23,9 +23,9 @@ class ProductViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         dataProduct()
-        
 
     }
+    
     func dataProduct(){
         guard let name = product?.title else {return}
         labelName.text = "Nombre: \(name)"

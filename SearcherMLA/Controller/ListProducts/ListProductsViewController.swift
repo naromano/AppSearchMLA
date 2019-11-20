@@ -36,7 +36,7 @@ class ListProductsViewController: UIViewController, UITableViewDataSource, UITab
         }
     }
     
-    
+    //MARK: - Cargar Celdas
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let product = listProduct[indexPath.row]
         let cell = UITableViewCell()
@@ -44,7 +44,7 @@ class ListProductsViewController: UIViewController, UITableViewDataSource, UITab
         cell.textLabel?.textColor = .black
         return cell
     }
-    
+    //MARK: - Seleccion Celda
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let product = listProduct[indexPath.row]
         let productvc = ProductViewController()

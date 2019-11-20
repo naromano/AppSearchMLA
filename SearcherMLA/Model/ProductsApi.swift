@@ -16,7 +16,6 @@ class ProductsApi{
         
         guard let url = URL(string: srtingUrl) else{return}
         
-        
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let data = data else{return}
             do{
@@ -26,8 +25,6 @@ class ProductsApi{
                 print(error)
             }
         }.resume()
-        
     }
-    
 }
 
