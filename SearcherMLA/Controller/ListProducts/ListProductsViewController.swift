@@ -16,8 +16,10 @@ class ListProductsViewController: UIViewController, UITableViewDataSource, UITab
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .yellow
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.backgroundColor = .yellow
         title = "Resultados..."
         guard let sq = seachQuery else {return}
         ProductsApi().downloadProducts(query: sq, complition: searchResponde(sr:))

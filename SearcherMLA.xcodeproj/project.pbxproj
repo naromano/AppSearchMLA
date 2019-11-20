@@ -93,9 +93,9 @@
 		843409EA2382201B004A2478 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84ADCBD32383AAB70041D13C /* Product */,
-				843409F02382240A004A2478 /* ListProducts */,
 				843409ED23822037004A2478 /* Home */,
+				843409F02382240A004A2478 /* ListProducts */,
+				84ADCBD32383AAB70041D13C /* Product */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,7 +103,6 @@
 		843409EB23822027004A2478 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				84ADCBD22383AAA40041D13C /* Product */,
 				843409EC23822031004A2478 /* Home */,
 				843409F123822412004A2478 /* ListProducts */,
 				843409EF23822078004A2478 /* Launch */,
@@ -156,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				84ADCBCB2383A5FE0041D13C /* ListProductsViewController.xib */,
+				84ADCBD22383AAA40041D13C /* Product */,
 			);
 			path = ListProducts;
 			sourceTree = "<group>";

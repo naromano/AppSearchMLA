@@ -19,6 +19,7 @@ struct SearchResponse: Decodable{
         let condition: String
         let buying_mode: String
         let accepts_mercadopago: Bool
+        let available_quantity: Int
         
         
     }
